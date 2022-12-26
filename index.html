@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <script src="javascript.js" defer></script>
+
+    </head>
+    <body>
+        
+            <div id='wrapper'>
+
+                <div id="menuBar">
+                            <header>
+            <h1>Mine Sweeper</h1>
+            </header>
+                <p>
+                    <label for="board">Board Size</label>
+                    <br>
+                    <select id="board">
+                        <option value="81">Small</option>
+                        <option value="100">Medium</option>
+                        <option value="144">Large</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="numOfMines" class='secondSelect'>Mines</label>
+                    <br>
+                    <select id="numOfMines" class='secondSelect'>
+                        <option value="10">10</option>
+                        <option value="28">20</option>
+                        <option value="42">40</option>
+                    </select>
+                </p>
+                    
+                    <button id='go'>New Game</button>
+                    
+                
+            
+                    
+                </div>
+                
+                <!-- fireworks -->
+                <div id="fireworks">
+                    <div class="pyro">
+                      <div class="before"></div>
+                      <div class="after"></div>
+                    </div>
+                  </div>
+                  <!-- end fireworks-->
+
+                <div id="container">
+                </div>
+                
+
+                    
+                <div id='msgContainer'>
+                <h2 id="endGameMsg">xxx</h2>
+                </div>
+
+
+            </div>
+        
+
+
+    
+    </body>
+</html>
